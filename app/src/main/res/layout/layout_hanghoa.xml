@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5E5">
+
+
+    <ImageView
+        android:id="@+id/imageHinh"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageHinh"
+        android:text="NAME"
+        android:textColor="#020000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/mota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_toRightOf="@id/imageHinh"
+        android:text="mo ta"
+        android:textColor="#BF0404"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageHinh"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="36dp"
+        android:layout_toEndOf="@+id/imageHinh"
+        android:backgroundTint="#F31111"
+        android:text="Chat"
+        android:textColor="#FAF7F7"
+        app:rippleColor="#ED1111" />
+
+
+</RelativeLayout>
